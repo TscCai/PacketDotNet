@@ -124,9 +124,21 @@ namespace PacketDotNet
         AvbTransportProtocol = 0x88B5,
         
         // Added by Tsccai
+        /// <summary>
+        /// Generic Object Oriented Substation Events
+        /// </summary>
         Goose = 0x88B8,
+
+        /// <summary>
+        /// Generic Substation Events
+        /// </summary>
         Gse = 0x88B9,
+
+        /// <summary>
+        /// Sampled Value
+        /// </summary>
         Sv = 0x88BA,
+        // End
 
         /// <summary>
         /// Link Layer Discovery Protocol (LLDP)
