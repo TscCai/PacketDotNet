@@ -45,4 +45,4 @@ inadvertantly reducing instead of increasing performance.
 What's new
 ======================
 This fork added 2 EthernetPacketType: GOOSE and SV. But further resolve is undone.
-For GOOSE, SV and MMS resovle and construct, please refer to [IEC61850Packet]("https://github.com/Tsccai/IEC61850Packet")
+For GOOSE, SV and MMS resovle and construct, please refer to [IEC61850Packet](https://github.com/Tsccai/IEC61850Packet)
