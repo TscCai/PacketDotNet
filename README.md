@@ -1,9 +1,11 @@
 Packet.Net
 
+This project is forked from PacketDotNet 0.13.0 on Sourceforge.
+
 Packet.Net is a high performance .Net assembly for dissecting and constructing
 network packets such as ethernet, ip, tcp, udp etc.
 
-Author: Chris Morgan <chmorgan@gmail.com>
+Original Author: Chris Morgan <chmorgan@gmail.com>
 
 http://packetnet.sourceforge.net
 
@@ -39,3 +41,8 @@ this test case in various profiling modes in order to look at potential ways of
 optimizing code. The tests will also provide a baseline from which to compare
 any proposed performance improvements in order to ensure that changes are not
 inadvertantly reducing instead of increasing performance.
+
+What's new
+======================
+This fork added 2 EthernetPacketType: GOOSE and SV. But further resolve is undone.
+For GOOSE, SV and MMS resovle and construct, please refer to [IEC61850Packet]("https://github.com/Tsccai/IEC61850Packet")
