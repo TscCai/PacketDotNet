@@ -122,6 +122,12 @@ namespace PacketDotNet
         /// AVB Transport Protocol (AVBTP)
         /// </summary>
         AvbTransportProtocol = 0x88B5,
+        
+        // Added by Tsccai
+        Goose = 0x88B8,
+        Gse = 0x88B9,
+        Sv = 0x88BA,
+
         /// <summary>
         /// Link Layer Discovery Protocol (LLDP)
         /// </summary>
